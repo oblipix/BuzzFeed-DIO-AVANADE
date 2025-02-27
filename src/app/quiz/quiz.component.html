@@ -1,0 +1,15 @@
+<div class="quiz-container">
+    <h2>{{ question }}</h2>
+  
+    <div *ngFor="let option of options">
+      <input 
+        type="radio" 
+        name="quiz" 
+        [value]="option" 
+        [(ngModel)]="selectedOption" />
+      <label>{{ option }}</label>
+    </div>
+  
+    <button (click)="submitAnswer()" [disabled]="!selectedOption">Enviar Resposta</button>
+  </div>
+  

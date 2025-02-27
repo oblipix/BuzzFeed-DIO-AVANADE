@@ -1,0 +1,65 @@
+/* Estilo do quiz */
+.quiz-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+  
+  /* Animação de entrada do quiz */
+  .quiz-container.ng-enter {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  
+  .quiz-container.ng-enter-active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  
+  /* Estilo da pergunta */
+  h2 {
+    font-size: 1.5rem;
+    color: #1C1C1C;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo das opções */
+  label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilo do botão de enviar resposta */
+  button {
+    background-color: #0500FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1C1C1C;
+    transform: translateY(-3px);
+  }
+  
+  button:disabled {
+    background-color: #9E9E9E;
+    cursor: not-allowed;
+  }
+  
