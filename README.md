@@ -1,8 +1,8 @@
 # BuzzFeed Quiz Clone
 
 
+![Captura de tela 2025-02-27 180716](https://github.com/user-attachments/assets/0da7cf6f-371b-45c3-b740-439d45408fb1)
 
-![Captura de tela 2025-02-27 174053](https://github.com/user-attachments/assets/17b70242-366e-4202-87ff-f9e74b88f15b)
 
 
 
