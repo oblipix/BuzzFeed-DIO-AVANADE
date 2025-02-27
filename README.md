@@ -1,5 +1,11 @@
 # BuzzFeed Quiz Clone
 
+
+
+![Captura de tela 2025-02-27 174053](https://github.com/user-attachments/assets/17b70242-366e-4202-87ff-f9e74b88f15b)
+
+
+
 Este é um projeto de clone simples de um quiz inspirado no BuzzFeed, desenvolvido com **Angular**. O objetivo é construir uma interface interativa onde os usuários podem responder a perguntas e ver seu resultado ao final.
 
 ## Tecnologias Utilizadas
